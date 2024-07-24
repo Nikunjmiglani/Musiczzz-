@@ -273,6 +273,7 @@ img{
 .seekbar {
     height: 4px;
     width: 98%;
+    background-color: white;
     background: black;
     border-radius: 10px;
     position: absolute;
@@ -289,6 +290,7 @@ img{
     bottom: 5px;
     left: 0%;
     transition: left 0.5s;
+     color: black;
 }
 
 .songbuttons img{
@@ -325,6 +327,7 @@ img{
     align-items: center;
     gap: 12px;
 }
+input[type='range']{ accent-color: rgb(192, 175, 175); }
 
 @media (max-width: 1200px) {
     .left {
